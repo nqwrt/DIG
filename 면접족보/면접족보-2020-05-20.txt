@@ -1,0 +1,49 @@
+1. class 란 무엇과 무엇으로 구성되어 있는가?
+2.아래의 용어를 설명하시오.
+인스턴스 변수
+로컬변수
+3. 클래스와 인스턴스의 차이는 무엇인가요(붕어빵틀과 붕어빵)?
+4. BankAccount yoon = new BankAccount(); 의 메모리를 그리시오.
+5.아래 프로그램의 출력결과를 예측하고,메모리그림으로 설명하시오.
+
+public class BankAccount {
+	int account = 0;
+}
+
+public class BankAccountOO {
+
+	public static void check(BankAccount bank) {
+		
+		System.out.println(bank);
+		System.out.println(bank.account);
+		
+		bank.account = 90;
+		
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		BankAccount yoon = new BankAccount();
+		
+		yoon.account = 10; //옥상 올라감.
+		
+		System.out.println(yoon);
+		System.out.println(yoon.account);				
+		
+		check(yoon);
+		
+		System.out.println(yoon.account);		
+	}
+
+}
+
+6.1. 클래스 이름 : Triangle 
+     -인스턴스 변수 : width,height
+     - 원의 넓이를 구하는 함수 : getArea
+     - 변수 셋팅 함수고,  Test 클래스에서
+ 테스트 하시오.
+7. 클래스 이름 : Student 
+     -인스턴스 변수 : kor, eng, math
+     -setter 함수 작성 
+     - grade 함수 average 함수 작성
+     Test 클래스에서 평균과 수우미양가를 출력하는 프로그램을 작성하시오.
+8.재귀함수란 무엇인가?
