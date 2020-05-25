@@ -5,9 +5,9 @@
 5.금일 배운 CardTest 의 메모리 영역을 그리시오(외우세요).
 6.다음을 프로그래밍 하시오.
 
-Circle c1 = Circle(6);
-Circle c2 = Circle(7);
-Circle c3 = Circle(8);
+Circle c1 = new Circle(6);
+Circle c2 = new Circle(7);
+Circle c3 = new Circle(8);
 
 Circle max = Circle.maxCircle(c1,c2,c3);
 
