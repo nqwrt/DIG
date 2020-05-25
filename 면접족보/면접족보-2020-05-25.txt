@@ -1,0 +1,33 @@
+1. static 함수에 인스턴스 라면(변수,함수)이 올수 없는 이유?
+2. 클래스 변수, 공유변수, static 변수를 각각의 의미를 설명하시오.
+3. 클래스 함수는 어떠한 경우에 만들어 주는 것이 좋은가?
+4. 클래스 변수는 어떠한 경우에 만들어 주는 것이 좋은가?
+5.금일 배운 CardTest 의 메모리 영역을 그리시오(외우세요).
+6.다음을 프로그래밍 하시오.
+
+Circle c1 = Circle c1(6);
+Circle c2 = Circle c1(7);
+Circle c3 = Circle c1(8);
+
+Circle max = Circle.maxCircle(c1,c2,c3);
+
+Sysout.out.println(max.radius)
+
+======================
+출력 : 8
+
+7. 컴파일러가 자동으로 하는거 2가지는?
+8.다음을 프로그래밍 하시오
+Sysout.out.println(MyCalculator.add(1, 2));	
+Sysout.out.println(MyCalculator.min(1, 2));
+
+출력: 
+3
+-1
+
+
+
+
+
+
+
