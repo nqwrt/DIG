@@ -1,0 +1,36 @@
+1.메써드 오버로딩 이란?
+2.메써드 오버로딩의 대표적인 예와,메써드 오버로딩시 달리해야할 2가지는?
+3.this는 무엇이며, This의 용도 2가지는?
+4.문자열 생성의 두가지 방법은?
+5.아래의 차이는?
+ String str1 = new String("Simple String");
+ String str2 = "Simple String";
+6. 아래가 false 를 리턴하는 이유와 true로 리턴하게 할려면?
+if(str1 == str2) 
+7.문제 11-1(263page) 프로그램을 작성하시오.
+8.String 과 StringBuffer 의 차이는?
+9.아래를 String 함수등을 사용하여 프로그래밍 하시오.
+//1. 마지막 3글자 자르기
+String str = "ABCDEFG"; 
+String result = 소스코딩      
+System.out.println(result)
+ //결과값EFG
+
+11.아래를 String 함수등을 사용하여 프로그래밍 하시오.
+//2. 특정문자 이후의 문자열 제거
+String str = "ABCD/DEFGH";
+String result = 소스코딩
+System.out.println(result); 
+//결과값 DEFGH
+12. 아래를 프로그래밍 하시오.
+Rectangle r1 = new Rectangle(5,6);
+Rectangle r2 = new Rectangle(7,9);
+
+Rectangle r3 = Rectangle.compareRect(r1,r2);
+
+System.out.println(r3.getHeight() + " : " + r3.getWidth()  + "입니다.");
+=============================
+출력 : 9 : 7 입니다.
+ 
+ 
+
