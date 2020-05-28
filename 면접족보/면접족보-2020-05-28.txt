@@ -19,8 +19,9 @@ int max = getMaxValue(arr)
 - sortArr 에 내림차순으로 sorting 된 배열을 리턴한다.
 
 int[] arr = new int[10];
-
+....
 int[] sortArr = getSortDESC(arr) 
+.....
 
 6. 아래를 프로그래밍 하시오.
  - Rectangle 배열 4개를 만든후 스캐너 객체로 가로와 세로를 입력하여 4개의 객체를 배열에 할당한다 
