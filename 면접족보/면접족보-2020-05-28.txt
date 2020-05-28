@@ -1,0 +1,86 @@
+1. 아래의 2차원 배열의 그림을 그리시오.
+int[][] arr = {
+   {11, 22, 33},
+   {44, 55, 66}, 
+   {77, 88, 99}
+};
+2. 아래를 프로그래밍 하시오.
+ - 10 개의 배열을 선언후 1부터 100까지의 수를
+랜덤하게 생성하여 10개의 배열에 넣는다.
+- 아래의 max 변수에 해당 배열의 값중에 최대값을 반환하는 함수를 만드시오. 
+
+int[] arr = new int[10];
+
+int max = getMaxValue(arr) 
+
+3. 아래를 프로그래밍 하시오.
+ - 10 개의 배열을 선언후 1부터 100까지의 수를
+랜덤하게 생성하여 10개의 배열에 넣는다.
+- sortArr 에 내림차순으로 sorting 된 배열을 리턴한다.
+
+int[] arr = new int[10];
+
+int[] sortArr = getSortDESC(arr) 
+
+6. 아래를 프로그래밍 하시오.
+ - Rectangle 배열 4개를 만든후 스캐너 객체로 가로와 세로를 입력하여 4개의 객체를 배열에 할당한다 
+- 해당 배열중 넓이가 최대값을 찾아서 리턴
+
+Rectangle[] rec = new Rectangle[3];
+........
+Rectangle maxRec = getMaxRec(rec) 
+s.o.p("최대사각형 넓이는" +maxRec.getArea())
+
+7. 아래를 프로그래밍 하시오.
+ - Rectangle 배열 4개를 만든후 스캐너 객체로 가로와 세로를 입력하여 4개의 객체를 배열에 할당한다 
+-  getSortingRec 사각형 배열을 내림차순 정렬한다.
+-정렬이 제대로 되었는지 배열에 저장된 객체의 getArea()함수를 순서대로 호출한다.
+
+Rectangle[] rec = new Rectangle[3];
+........
+Rectangle[] recSorting = getSortingRec(rec) 
+......
+
+6. 상속이란 무엇인가?
+7. 다중상속이란?
+8. 다음 TV 클래스가 있다.
+
+class TV {
+	private int size;
+	public TV(int size) { this.size = size; }
+	protected int getSize() { return size; }
+}
+
+다음 main() 메소드와 실행 결과를 참고하여 TV를 상속받은 ColorTV 클래스를 작성하라.
+
+public static void main(String args[]) {
+		colorTV myTV = new ColorTV(32, 1024);
+		myTV.printProperty();
+	}
+
+=====
+출력:32인치 1024컬러
+
+
+9. 문제
+
+다음 main() 메소드와 실행 결과를 참고하여 ColorTV를 상속받는 IPTV 클래스를 작성하라.
+public static void main(String args[]) {
+		IPTV iptv = new IPTV("192.1.1.2", 32, 2048); // "192.1.1.2" 주소에 32인치, 2048 컬러
+		iptv.printProperty();
+	}
+===출력
+나의 IPTV는 192.1.1.2 주소의 32 인치 2048컬러
+
+10. 다음은 2차원 상의 한 점을 표현하는 Point 클래스이다.
+
+class Point {
+	private int x, y;
+	public Point(int x, int y) { this.x = x; this.y = y; }
+	public int getX() { return x; }
+	public int getY() { return y; }
+	protected void move(int x, int y) { this.x = x; this.y = y; }
+}
+
+Point를 상속받아 색을 가진 점을 나타내는 ColorPoint 클래스를 작성하라. 다음 main() 메소드를 포함하고 실행 결과와 같이 출력되게 하라.
+RED 색의 (10,20)의 점 입니다.
