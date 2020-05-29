@@ -1,0 +1,35 @@
+1.다형성이란?
+2. 아래의 메모리를 그리시오.
+class MobilePhone {
+    protected String number;
+    
+    public MobilePhone(String num) {
+        number = num;
+    }    
+    public void answer() {
+        System.out.println("Hi~ from " + number);
+    }
+}
+
+class SmartPhone extends MobilePhone { 
+    private String androidVer;
+    
+    public SmartPhone(String num, String ver) {
+        super(num);
+        androidVer = ver;
+    }    
+    public void playApp() {
+        System.out.println("App is running in " + androidVer);
+    }
+}
+=======================================
+	MobilePhone phone = new SmartPhone("010-555-777", "Nougat");
+    	phone.answer();    	
+    	SmartPhone s = (SmartPhone)phone;    	
+    	s.playApp();
+
+2.is-a 관계와 has-a 관계에 대하여 설명하시오.
+3.메소드 오버로딩과 오버라이딩의 차이점은?
+4 책 323 page 14-1번
+5.instanceof 연산자에 대하여 설명하시오.
+6.남는 시간은 어제 프로그래밍 모두 중요합니다.(시간내에 풀수 있도록 계속 연습 부탁드리겠습니다.)
