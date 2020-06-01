@@ -21,3 +21,4 @@ Circle@15db9742
 6.@Override 에 대하여 설명하시오.
 7.interface 에 대하여 설명하시오.
 -interface에 올수 있는 두가지는?
+8.abstract 키워드에 대하여 설명하시오.
