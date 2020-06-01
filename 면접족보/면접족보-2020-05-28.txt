@@ -33,7 +33,7 @@ int[] sortArr = getSortDESC(arr)
 
 Rectangle[] rec = new Rectangle[3];
 ........
-Rectangle maxRec = getMaxRec(rec) 
+Rectangle maxRec = Rectangle.getMaxRec(rec) 
 s.o.p("최대사각형 넓이는" +maxRec.getArea())
 
 7. 아래를 프로그래밍 하시오.
@@ -43,7 +43,7 @@ s.o.p("최대사각형 넓이는" +maxRec.getArea())
 
 Rectangle[] rec = new Rectangle[3];
 ........
-Rectangle[] recSorting = getSortingRec(rec) 
+Rectangle[] recSorting = Rectangle.getSortingRec(rec) 
 ......
 
 6. 상속이란 무엇인가?
