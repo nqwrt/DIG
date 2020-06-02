@@ -1,0 +1,25 @@
+1. 다음을 프로그램 하시오.
+interface Printable { // MS가 정의하고 제공한 인터페이스
+   public void print(String doc);
+}
+ SPrinterDriver 와 LPrinterDriver를 만드시오
+======================
+
+public static void main(String[] args) {
+   String myDoc = "This is a report about...";
+   
+   // 삼성 프린터로 출력
+   Printable prn = new SPrinterDriver();
+   prn.print(myDoc);
+   System.out.println();
+
+   // LG 프린터로 출력
+   prn = new LPrinterDriver();
+   prn.print(myDoc);
+}
+
+2. interface 문법중 default 에 대하여 설명하시오.
+
+3.abstract 클래스에 대하여 설명하시오.
+4.추상클래스와 interface의 차이는 무엇인가요?
+5.조별학습
