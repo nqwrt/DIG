@@ -17,6 +17,13 @@ public static void main(String[] args) {
    prn = new LPrinterDriver();
    prn.print(myDoc);
 }
+================================================
+출력: From Samsung printer
+This is a report about ...
+
+From LG printer
+This is a report about ...
+
 
 2. interface 문법중 default 에 대하여 설명하시오.
 
