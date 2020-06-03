@@ -1,0 +1,52 @@
+1.아래의 메모리를 정확히 그리시오.
+		Rectangle[] recArr = new Rectangle[3];
+		Scanner scanner= null;
+		
+		for(int i=0;i<3;i++) {
+			scanner = new Scanner(System.in);
+			int width = scanner.nextInt();
+			int height = scanner.nextInt();
+			recArr[i] = new Rectangle(width, height);
+		}
+		
+		
+		Rectangle maxRec = Rectangle.getMaxRec(recArr);
+
+=======================
+public static Rectangle getMaxRec(Rectangle[] recArr) {
+		Rectangle maxRec = recArr[0];
+		
+		for(Rectangle rec: recArr) {			
+			if(maxRec.getArea() < rec.getArea()) {
+				maxRec = rec;
+			}		
+		}
+		
+		for(int i=0 ; i <recArr.length; i++) {			
+			if(maxRec.getArea() < recArr[i].getArea()) {
+				maxRec = recArr[i];
+			}		
+		}		
+		return maxRec;		
+	}
+ 
+2. 예외와 에러의 다른점은?
+3. 예외에 대한 클래스 상속도를 간단하게 그리시오.
+4.예전의 계산기 프로그램이 아래와 같이 에러가 난다. 예외처리를 구문을 적용하여, 죽지 않게 만드시오.
+
+첫번째 숫자를 넣으세요:1
+연산기호를 넣으세요:/
+두번째 숫자를 넣으세요:3
+1 / 3 = 0
+continue? Y or N:y
+첫번째 숫자를 넣으세요:1
+연산기호를 넣으세요:/
+두번째 숫자를 넣으세요:0
+Exception in thread "main" java.lang.ArithmeticException: / by zero
+	at Calculator.execute(Calculator.java:34)
+	at CalculatorTest.main(CalculatorTest.java:69)
+5.예외처리 에서, 아래의 용어를 설명하시오.
+-checked Excetpion이란 unchecked Exception이란?
+-finally
+-throws
+
