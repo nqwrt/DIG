@@ -1,0 +1,20 @@
+1.OS의 역할은?
+2.자바 메모리 영역에 대하여 설명하시오.
+-MA
+-Call stack
+-heap
+3.Object 클래스가 가지는 각각의 함수는?
+4. 아래와 같이 나오도록 프로그래밍 하시오
+==============================
+
+Person person1 = new Person("jeong-pro", 27);
+Person person2 = new Person("jeong-pro", 27);
+
+System.out.println(person1.equals(person2));//true 로 반환
+5.shallow copy 와 deep copy 차이는 무엇인가?
+6.439 19-2 번의 문제를 푸시오.
+7.431page 와 깊은복사의 메모리를 그리시오.
+
+
+
+
