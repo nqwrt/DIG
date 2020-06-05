@@ -1,0 +1,23 @@
+1. 아래의 interface 를 구현하시오.
+interface IGugudan{
+void gugugdan();      //구구단 출력
+}
+
+2.아래의 interface 를 구현하시오.
+interface IStarPrint{
+	void starPrint(int n); //      
+}
+
+*
+**
+***
+****
+*****
+3. wrapper 클래스에 대하여 설명하시오.
+4.boxing 과 unboxing 에 대하여 설명하시오.
+5.아래의 메모리를 그리고, 컴파일러가 실행하는 구문을 적으시오.
+ Integer num = 10;
+   num++;
+6.오토박싱과 언박싱에 대하여 설명하시오.
+7.461page 20-1 번 푸시오.
+8.가위바위보 게임을 조별로 어떻게 짜면 되는지 논의 하고,가위바위보 게임을 완성하시오. 
