@@ -1,0 +1,10 @@
+1.제네릭을 쓰는 이유는?
+2.496page 문제 21-1 번을 푸시오.
+3.제넉릭 메소드란?
+4.아래가 호출되도록 BoxFactory 클래스를 만드시오.
+Box<String> sBox = BoxFactory.<String>makeBox("Sweet");
+Box<Double> dBox = BoxFactory.<Double>makeBox(7.59);
+5.다음용어를 정리하시오.
+-http
+-도메인네임
+-포트번호
