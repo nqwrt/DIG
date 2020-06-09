@@ -1,0 +1,29 @@
+1.지네릭에서 <?> 와일드 카드가 나오게된 배경은?
+2.Box<Integer> 와 Box<String>이 상속이 안되는 이유는?
+3. 아래의 Error 를 설명하시오.
+
+lass Car extends Toy {...}    // 자동차 장난감
+class Robot extends Toy {...}    // 로봇 장난감
+
+class Box<T> {
+   private T ob;
+   public void set(T o) { ob = o; }
+   public T get() { return ob; }
+}
+
+. . . 
+
+public static void outBox(Box<? extends Toy> box) {
+   box.get();   // 꺼내는 것! OK!
+   box.set(new Toy());   // 넣는 것! ERROR!
+}
+4.문제 22-2 번을 푸시오.
+5. Scanner를 이용하여 한 라인을 읽고, 공백으로 분리된 어절이 몇 개 들어 있는지 "그만"을 입력할 때까지 반복하는 프로그램을 작성하라.
+
+======출력======
+I love Java
+어절 갯수는 3
+자바는 객체 지향 언어 이다.
+어절 갯수는 5
+그만
+종료 합니다.
