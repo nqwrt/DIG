@@ -17,7 +17,7 @@ public static void outBox(Box<? extends Toy> box) {
    box.get();   // 꺼내는 것! OK!
    box.set(new Toy());   // 넣는 것! ERROR!
 }
-4.문제 22-2 번을 푸시오.
+4.537 page 문제 22-2 번을 푸시오.
 5. Scanner를 이용하여 한 라인을 읽고, 공백으로 분리된 어절이 몇 개 들어 있는지 "그만"을 입력할 때까지 반복하는 프로그램을 작성하라.
 
 ======출력======
