@@ -1,0 +1,46 @@
+1.581page 문제 23-2 정렬의 기준 정하기
+2.멀티프로세스와 단일 프로세스의 차이는?
+3. 아래를  출력하시오.
+-(반복자 기반)
+- (for-each문 기반)
+HashMap<Integer, String> map = new HashMap<>();
+   map.put(45, "Brown");
+   map.put(37, "James");
+   map.put(23, "Martin");
+
+
+4. 아래를 구현 시키기 위한 Person 객체를 작성하시오.
+TreeSet<Person> tree = new TreeSet<>(new PersonComparator());
+   tree.add(new Person("YOON", 37));
+   tree.add(new Person("HONG", 53));
+   tree.add(new Person("PARK", 22));
+
+   for(Person p : tree)
+      System.out.println(p);
+}
+5. 아래를 기반으로 스택을 구현하시오(조별학습).
+
+interface IStack{
+    boolean isEmpty();
+    boolean isFull();
+    void push(int item);
+    char pop();
+    char peek();
+    void clear();
+}
+
+public class StackArray implements IStack{
+    
+    private int top;
+    private int stackSize;
+    private int stackArr[];
+
+............
+.........
+
+면접시 스택정도는 기본적으로 구현할수 있다고 어필할수 있도록 합시다. 
+파이이 팅이잉~~~~~
+
+
+
+
