@@ -24,8 +24,8 @@ interface IStack{
     boolean isEmpty();
     boolean isFull();
     void push(int item);
-    char pop();
-    char peek();
+    int pop();
+    int peek();
     void clear();
 }
 
