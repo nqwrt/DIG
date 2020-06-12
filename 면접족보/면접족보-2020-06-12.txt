@@ -23,3 +23,6 @@
             <a href="http://www.sba.seoul.kr" target="_blank"><img src="http://www.sba.seoul.kr/kr/images/footer/f_logo.png"></a>
         </div>
     </div>
+
+jsp/servlet
+https://www.youtube.com/watch?v=Aw-lOlR0I28&list=PL6qV-iipFkkDt6MAIRUrl8Vkh6iKQJrqD
