@@ -1,0 +1,14 @@
+1.jsp 가 WAS 에서 돌아가는 원리를 설명하시오.
+2.아래에 대하여 설명하시오.
+-doGet
+-doPost
+-@WebServlet("/hworld")
+-HttpServlet
+3.float 와 overflow에 대하여 설명하시오.
+4.아래의 속성을 설명하시오.
+-block
+-inline
+-inline-block
+-display:none
+-visivility:hidden
+5.13-1 구현 하시오.
