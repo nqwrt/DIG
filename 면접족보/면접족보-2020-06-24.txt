@@ -1,0 +1,9 @@
+1.DTO 란 무엇인가?
+2.DAO 란 무엇인가?
+3.VO란 무엇인가?
+4.PreparedStatement 와 Statement 의 차이는?
+5. emp를 VO 객체와 DAO 객체를 만들어, 모두 나타나도록 하시오.
+6.DBCP 에 대하여 설명하시오.
+7.CARTESIAN PRODUCT 이란
+8. JOIN 에 대하여 설명하시오.
+9. group by 에 대하여 설명 하고 group by 의 조건을 주는 방법은?
