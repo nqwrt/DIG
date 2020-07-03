@@ -1,0 +1,17 @@
+1. 아래의 개념을 설명하시오.
+-DI
+-IoC
+-IoC 컨테이너
+2. 스프링의 장점 및 단점에 대하여 이야기 하여 보세요.
+3.  원, 삼각형, 사각형의 객체를 만든후, 반지름 10, 가로 세로 10 인 각각의 넓이를 구하는 프로그램을 작성하시오.
+조건) Ioc 컨테이너를 통하여 객체를 생성할것.
+
+4) 아래의 결과를 예측하고, 아래의 부분을 설명하시오.		
+var varArrSort = new Array("E", "B", "A", "C", "D");
+console.log("varArrSortBefore : " + varArrSort);
+console.log("varArrSort : " + varArrSort.sort());
+console.log("varArrSortAfter : " + varArrSort);
+varArrSort = varArrSort.sort();  // 설명하시오.
+console.log("varArrSortAfter : " + varArrSort); //결과가 왜 그렇게 나오는지 설명하시오
+ 
+
