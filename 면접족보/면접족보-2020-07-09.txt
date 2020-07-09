@@ -1,0 +1,20 @@
+1.스프링 mvc 란 무엇인가?
+2.아래를 설명하시오.
+-pom.xml
+-web.xml
+-servlet-context.xml
+3.스프링의 아래의 객체에 대하여 설명하고, 해당 스프링의 실행 순서는?
+-dispacherservlet
+-HandlerMapping
+-HandlerAdapter
+-Controller
+-ViewResolver
+4.jsp로 spring을 짜 보시오.
+ 
+5. 아래의 javascript 함수를 만드시오.
+
+var sorento = createCar("SORENTO", "GREY", 220);
+			console.log("sorento.name : " + sorento.name);
+			console.log("sorento.run : " + sorento.run());
+6.
+
