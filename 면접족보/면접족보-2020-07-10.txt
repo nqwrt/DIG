@@ -1,0 +1,25 @@
+1.Model 객체에 대하여 설명하시오.
+2.ModelAndView 객체의 사용법은?
+3.아래를 @을 설명하시오.
+-@RequestParam
+4.req.getParameter 보다 @RequestParam 의 장점은?
+5.command 객체란?
+ - 유의할점 2가지는?
+6.HttpServletRequest 객체를 설명하시오.
+7.정보은닉이란?
+8.아래를 프로그래밍 하시오.
+-프로토타입으로 함수를 만들것
+
+			var player1 = new Scoring("홍길동", 99, 90, 92);
+			console.log(player1.player + "의 총점 : " + player1.getTotal());
+			console.log(player1.player + "의 평균 : " + player1.getAverage());
+			
+			var player2 = new Scoring("홍길순", 80, 90, 85);
+			console.log(player2.player + "의 총점 : " + player2.getTotal());
+			console.log(player2.player + "의 평균 : " + player2.getAverage());
+9.아래를 스프링 mvc로 프로그래밍 하시오.
+이름 국어 영어 수학 을 입력 하는 페이지를 만든후, 이름과 총점 평균을 클라이언트에게 보내줄것
+1)조건 - command 객체 사용 할것
+2)롬복이 사용 할것.
+
+		
