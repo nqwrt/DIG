@@ -1,0 +1,14 @@
+1.Restful 이란?
+2.@PathVariable의 사용 법은?
+3.절대 경로와 상대 경로에 대하여 설명하시오.
+4.아래의 href의 주소를 정확하게 기술 하시오.
+<a href="studentView" target="_blank">태그</a><br>
+	<a href="/studentView" target="_blank">태그</a><br>
+	<a href="../spring_14_2_ex1_srpingex/studentView" target="_blank">태그</a><br>
+5. 아래의 액션 태그의 차이는 무엇인가요?
+<form action="studentView" method="post">
+<form action="/studentView" method="post">
+6.javascript로 시간을 표시하는 웹페이지를 만드시오.
+-document.write - 를 활용하시오.
+-시간 가운데 정렬 시킬것.
+
