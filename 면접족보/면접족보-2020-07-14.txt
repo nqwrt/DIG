@@ -1,7 +1,7 @@
 1.Validator 객체 사용법은?
 2.JUNIT 이란?
 3. 아래의 인터페이스를 구현한 
-삼각형,사각형,원의 클래스를 구현하고,JUNIT 함수를 사용하여 테스트 하시오.
+삼각형,사각형,원의 클래스를 구현하고,JUNIT를 이용하여 단위 테스트 하시오.
 -interface IShape{
 	-double getArea();
 }
