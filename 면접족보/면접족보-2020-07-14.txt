@@ -1,0 +1,15 @@
+1.Validator 객체 사용법은?
+2.JUNIT 이란?
+3. 아래의 인터페이스를 구현한 
+삼각형,사각형,원의 클래스를 구현하고,JUNIT 함수를 사용하여 테스트 하시오.
+-interface IShape{
+	-double getArea();
+}
+
+
+3.BOM 이란 무엇인가?
+4.window 객체란 무엇인가?
+5.아래를 프로그램 하시오.
+- 현재 탭에서 www.google.com 을 여시오.
+
+
