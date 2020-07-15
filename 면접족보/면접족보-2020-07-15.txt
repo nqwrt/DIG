@@ -1,0 +1,26 @@
+1.mvc_board 에서 list 를 받아 오기위한 sql 문을 작성하시오.
+2.스프링 으로 게시판을 짜기위한 설계도를 그리시오.
+3.스프링에서의 한글 처리 방법은?
+4.Dom 이란 무엇인가?
+5.screen 객체에 대하여 설명하시오.
+6.location 객체의 용도에 대하여 설명하시오.
+7.windows.onload 에 대하여 설명하시오.
+8. 아래의 소스코드는 버튼을 누를때 마다, hello world를 옆으로 찍는다.
+누를때 마다 개행을 넣이 찍도록 하시오. 
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Click the button to create a Text Node.</p>
+
+<button onclick="myFunction()">Try it</button>
+
+<script>
+function myFunction() {
+  var t = document.createTextNode("Hello World");
+  document.body.appendChild(t);
+}
+</script>
+
+</body>
+</html>
