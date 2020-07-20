@@ -1,0 +1,12 @@
+1.정적 리소스의 종류는?
+2.스프링에서의 정적 리소스 처리 방식은?
+3.게시판 버전 2 방식에서 delete 와 contentview를 구현하시오.
+4.아래를 설명하시오.
+-@AutoWired=Inject=Resource
+-@Repository
+-@Service 
+5.이벤트란 무엇이며, 이벤트 등록 방법 4가지에 대한 예를 드시오.
+
+
+
+
