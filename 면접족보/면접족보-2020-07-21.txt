@@ -8,3 +8,4 @@
 
 5. input 박스에서 type=button 과 type=submit
 일때의 차이를 자바 스크립트 예제로 설명하시오.
+6.javascript 와 jquery 의 차이는?
