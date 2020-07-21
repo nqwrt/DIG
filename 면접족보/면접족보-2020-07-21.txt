@@ -1,0 +1,10 @@
+1. 게시판 작성시 아래의 용어 들에 대하여 간략히 정리하시오.
+ -Controller, Command , DAO
+ -@Controller, @Service, @Repository
+2.@Component의  역할 과 세팅은 어디서 하며, 어떠한 의미인지 설명하시오.
+3.Command 객체에 대하여 설명하시오.
+4.아래의 방식으로 게시판을 완성하시오.(댓글 포함)
+ @Controller, @Service, @Repository
+
+5. input 박스에서 type=button 과 type=submit
+일때의 차이를 자바 스크립트 예제로 설명하시오.
