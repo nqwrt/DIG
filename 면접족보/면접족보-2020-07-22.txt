@@ -1,0 +1,6 @@
+1.<annotation-driven /> 은 무엇을 뜻하는가?
+2.mybatis를 위한 library는?
+3.게시판 삭제를 구현하시오.
+4.가위바위보 게임을 jquery 함수를 이용하여 구성하시오.
+ 
+
