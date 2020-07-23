@@ -1,0 +1,9 @@
+1.아래를 목엠브이씨를 할용하여 테스트 하시오.
+		@RequestMapping("/write")
+		public String write(BoardVO boardVO) throws Exception {
+			log.info("write()");		
+			service.writeBoard(boardVO);				
+			return "redirect:list";
+		}
+2.마이 바티스를 이용 하여 게시판을 완성 하시오.
+3.선택자중 자식 자손 선택자에 대하여 설명하시오.
