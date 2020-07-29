@@ -1,0 +1,15 @@
+1.로그와 system.out.pritln()의 차이점은?
+2.log에서 아래의 개념에 대하여 설명하시오?
+-logger
+-appender
+-layout
+3.관점지향 프로그래밍 언어(AOP)란 무엇인가?
+4.아래의 함수를 설명하시오.
+-e.stopPropagation();
+-e.preventDefault();
+5.아래의 용어를 설명하시오.
+-Aspect 
+-Advice
+-JointPoint 
+-PointCut 
+-weaving
